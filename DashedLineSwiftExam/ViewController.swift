@@ -20,7 +20,9 @@ class ViewController: UIViewController {
         ob.dashedLineHeight = 1.0
         ob.dashedLineSpaceFromView = 10.0
         
-        ob.dashedLineColor = UIColor.init(colorLiteralRed: 229.0/255.0 , green: 229.0/255.0, blue: 229.0/255.0 , alpha: 1.0)
+      //  ob.dashedLineColor = UIColor.init(colorLiteralRed: 229.0/255.0 , green: 229.0/255.0, blue: 229.0/255.0 , alpha: 1.0)
+        
+          ob.dashedLineColor = UIColor.init(colorLiteralRed: 229.0/255.0 , green: 229.0/255.0, blue: 229.0/255.0 , alpha: 1.0)
         
         ob.drawDashedLineWithView(view: containerView!)
     }
